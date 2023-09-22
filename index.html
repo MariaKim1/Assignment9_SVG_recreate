@@ -4,20 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
+    <script src="https://kit.fontawesome.com/19b5078a53.js" crossorigin="anonymous"></script>
     <title>MKP_SVG_recreate</title>
 </head>
 <body>
-    <h1>SVG image "Simple Clock" recreation by Maria</h1>
+    <h1>Easy SVG images recreated by Maria<i class="fa-regular fa-hand-peace"></i></h1>
     <div class="easy_clock">
         <h2>Original clock:</h2>
-        <img id="easy_clock" src="images/easy-wall-clock.png" alt="easy clock">
+        <img id="easy_clock" src="images/easy-wall-clock.png" alt="simple clock img">
     </div>
     <div>
-        <h2>Recreated clock with a twist:</h2>
-        <svg width="210" height="210" viewbox="0 0 220 220">
-            <circle cx="100" cy="100" r="90" stroke="green" stroke-width="3px" fill="pink"></circle>
-            <polyline points=""></polyline>  
+        <h2>Recreated clock:</h2>
+        <svg width="200" height="200" viewbox="0 0 200 200">
+            <circle cx="100" cy="100" r="90" stroke="lightblue" stroke-width="5px" fill="pink"></circle>
+            <polyline points="50,100 100,100 100,40" stroke="yellow" stroke-width="17"></polyline>  
         </svg>
+<!-- not sure how to get rid of the little triangle that was created between the points..? 
+    But I'd rather keep the pink than making a black clock ;) -->
+    </div>
+
+    <div>
+        <h2>Original envelope:</h2>
+        <img id="easy_envelope" src="images/easy-envelope.png" alt="simple envelope img">
+    </div>
+    <div class="easy_envelope">
+        <h2>Recreated envelope:</h2>
+        <svg>
+            <use xlink:href="images/mkp_envelope.svg#mkp_envelope"></use>
+        </svg>
+    </div>
+    <div>
+        <h3>End of assignment</h3>
+            <p>
+                However, I'm not entirely sure I understood the instuctions:<br>
+                "At least one SVG should be created in the HTML document and at least one should be created in an SVG document 
+                and linked to the HTML document."
+            </p>
     </div>
 </body>
 </html>

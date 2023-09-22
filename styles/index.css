@@ -1,9 +1,19 @@
 #easy_clock {
-    width: 30%;
-    height: 30%;
+    width: 17%;
+    height: 17%;
 }
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
     color:aquamarine; 
+}
+
+h2, h3, p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(247, 102, 165, 0.842); 
+}
+
+#easy_envelope {
+    width: 17%;
+    height: 17%;
 }
