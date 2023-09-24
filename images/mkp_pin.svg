@@ -1,0 +1,5 @@
+<svg width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="mkp_pin" viewbox="0 0 250 250">
+        <circle cx="100" cy="100" r="50">
+        <polyline points="10,20 10,180 180,180 180,20 10,20 100,100 180,20" fill="lavender" stroke="skyblue" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></polyline>
+    </symbol>
